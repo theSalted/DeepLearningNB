@@ -6,3 +6,5 @@
 6_Computer_Vision/cats_vs_dogs_small
 6_Computer_Vision/convnet_from_scratch.keras
 6_Computer_Vision/convnet_from_scratch_with_augmentation.keras
+6_Computer_Vision/feature_extraction.keras
+6_Computer_Vision/feature_extraction_with_data_augmentation.keras
