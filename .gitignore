@@ -8,6 +8,8 @@ Computer_Vision/convnet_from_scratch.keras
 Computer_Vision/convnet_from_scratch_with_augmentation.keras
 Computer_Vision/feature_extraction.keras
 Computer_Vision/feature_extraction_with_data_augmentation.keras
+Keras_DeepDive/train
+Keras_DeepDive/validation
 target
 .idea
 .vscode
