@@ -1,0 +1,6 @@
+
+# pixi environments
+.pixi
+*.egg-info
+train/
+dogs_vs_cats_small/

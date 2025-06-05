@@ -1,0 +1,16 @@
+[workspace]
+authors = ["Yuhao Chen <yuhao.chen2000@icloud.com>"]
+channels = ["conda-forge"]
+name = "Convnet"
+platforms = ["osx-arm64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+ipykernel = ">=6.29.5,<7"
+tensorflow = ">=2.6.0,<3"
+python = ">=3.9.15,<3.10"
+kagglehub = ">=0.3.8,<0.4"
+ipywidgets = ">=8.1.7,<9"
+matplotlib = ">=3.5.3,<4"
