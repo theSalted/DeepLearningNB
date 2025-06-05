@@ -1,3 +1,5 @@
+train/
+validation/
 
 # pixi environments
 .pixi

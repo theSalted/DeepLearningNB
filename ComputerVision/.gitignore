@@ -1,3 +1,14 @@
+train/
+train.zip
+sampleSubmission.csv
+dogs-vs-cats.zip
+test1.zip
+cats_vs_dogs_small/
+convnet_from_scratch.keras
+convnet_from_scratch_with_augmentation.keras
+feature_extraction.keras
+feature_extraction_with_data_augmentation.keras
+
 
 # pixi environments
 .pixi

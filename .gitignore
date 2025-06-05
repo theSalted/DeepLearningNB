@@ -1,15 +1,3 @@
-ComputerVision/train
-ComputerVision/train.zip
-ComputerVision/sampleSubmission.csv
-ComputerVision/dogs-vs-cats.zip
-ComputerVision/test1.zip
-ComputerVision/cats_vs_dogs_small
-ComputerVision/convnet_from_scratch.keras
-ComputerVision/convnet_from_scratch_with_augmentation.keras
-ComputerVision/feature_extraction.keras
-ComputerVision/feature_extraction_with_data_augmentation.keras
-KerasDeepDive/train
-KerasDeepDive/validation
 target
 .idea
 .vscode
@@ -23,3 +11,5 @@ site/
 .cache
 pytest-temp
 /vendor
+.zip
+.keras
