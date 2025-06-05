@@ -16,3 +16,12 @@ pixi install
 ```
 
 Make sure you set the correct interpreter for your project. For VSCode, [follow this guide](https://pixi.sh/latest/).
+
+## The Table of Contents
+1. MNIST
+2. KerasTensorFlow
+3. Generalization
+4. KerasDeepDive
+5. ComputerVision
+6. ConvnetPatterns
+7. ImageSegmentation
