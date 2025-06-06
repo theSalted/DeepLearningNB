@@ -1,5 +1,6 @@
-# Deep-Learning-with-Python  
-This repository follows _Deep Learning with Python, Second Edition_.
+# Deep Learning Notebooks
+## Deep Learning with Python  
+This repository follows _Deep Learning with Python, Second Edition_ and _Deep Learning with Python, Third Edition_.
 
 ## Getting Started
 
