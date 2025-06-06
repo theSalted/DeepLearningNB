@@ -8,7 +8,7 @@ version = "0.1.0"
 [tasks]
 
 [dependencies]
-tensorflow = "=2.16.1"
+tensorflow = ">=2.16.1, <2.17"
 matplotlib = ">=3.5.3,<4"
 pixi-pycharm = ">=0.0.8,<0.0.9"
 python = ">=3.9.23,<3.10"
