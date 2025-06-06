@@ -8,7 +8,8 @@ version = "0.1.0"
 [tasks]
 
 [dependencies]
-ipykernel = ">=6.29.5,<7"
-tensorflow = ">=2.6.0,<3"
+tensorflow = "=2.16.1"
 matplotlib = ">=3.5.3,<4"
-python = ">=3.9.15,<3.10"
+pixi-pycharm = ">=0.0.8,<0.0.9"
+python = ">=3.9.23,<3.10"
+ipykernel = ">=6.29.5,<7"
