@@ -19,10 +19,10 @@ pixi install
 
 Each folder in this repo contains a `pixi.toml`, this controls pixi workspace. By default, most of workspace only have platform `osx-arm64` enabled. If you are on a different platform, [see this guide to enable your platform](https://pixi.sh/latest/workspace/multi_platform_configuration/)
 
+Make sure you set the correct interpreter for your project. For VSCode, [follow this guide](https://pixi.sh/latest/).
+
 ### Google Colab
 If you want to run these notebooks on Google Colab. Simply fork this repo, go to `File` -> `Open notebook` -> `Github` and paste url to your fork and select the proper notebook. Colab come with most of dependencies installed so you shouldn't be needing to install yourself.
-
-Make sure you set the correct interpreter for your project. For VSCode, [follow this guide](https://pixi.sh/latest/).
 
 ## The Table of Contents
 1. MNIST
