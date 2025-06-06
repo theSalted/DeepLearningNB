@@ -15,8 +15,8 @@ ipykernel = ">=6.29.5,<7"
 
 [pypi-dependencies]
 keras-hub = ">=0.19.0, <0.20"
-tensorflow = ">=2.19.0, <3"
-tensorflow-text = ">=2.19.0, <3"
+tensorflow = "==2.19.0"
+tensorflow-text = "==2.19.0"
 
 [target.osx-arm64.pypi-dependencies]
 keras-hub = ">=0.19.0, <0.20"
