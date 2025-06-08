@@ -1,7 +1,7 @@
 [workspace]
 authors = ["Yuhao Chen <yuhao.chen2000@icloud.com>"]
 channels = ["conda-forge"]
-name = "AdvanceComputerVision"
+name = "ImageSegementation"
 platforms = ["osx-arm64", "linux-64"]
 version = "0.1.0"
 
