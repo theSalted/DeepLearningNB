@@ -1,0 +1,17 @@
+[workspace]
+authors = ["Yuhao Chen <yuhao.chen2000@icloud.com>"]
+channels = ["conda-forge"]
+name = "InterpretConvnet"
+platforms = ["osx-arm64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+pillow = ">=11.2.1,<12"
+python = ">=3.12.11,<3.13"
+ipykernel = ">=6.29.5,<7"
+matplotlib = ">=3.10.3,<4"
+
+[pypi-dependencies]
+keras = ">=3.10.0, <4"

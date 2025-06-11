@@ -1,0 +1,5 @@
+
+# pixi environments
+.pixi
+*.egg-info
+convnet_from_scratch_with_augmentation.keras
