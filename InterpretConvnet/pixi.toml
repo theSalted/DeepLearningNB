@@ -1,17 +1,26 @@
 [workspace]
 authors = ["Yuhao Chen <yuhao.chen2000@icloud.com>"]
 channels = ["conda-forge"]
-name = "InterpretConvnet"
-platforms = ["osx-arm64"]
+name = "ImageSegementation"
+platforms = ["osx-arm64", "linux-64"]
 version = "0.1.0"
 
 [tasks]
 
 [dependencies]
-pillow = ">=11.2.1,<12"
-python = ">=3.12.11,<3.13"
+matplotlib = ">=3.5.3,<4"
+pixi-pycharm = ">=0.0.8,<0.0.9"
+python = ">=3.9.23,<3.10"
 ipykernel = ">=6.29.5,<7"
-matplotlib = ">=3.10.3,<4"
 
 [pypi-dependencies]
-keras = ">=3.10.0, <4"
+keras-hub = ">=0.19.0, <0.20"
+tensorflow = "==2.19.0"
+tensorflow-text = "==2.19.0"
+optree = ">=0.16.0, <0.17"
+huggingface-hub = ">=0.33.0, <0.34"
+
+[target.osx-arm64.pypi-dependencies]
+keras-hub = ">=0.19.0, <0.20"
+tensorflow = { url = "https://github.com/sun1638650145/Libraries-and-Extensions-for-TensorFlow-for-Apple-Silicon/releases/download/v2.19/tensorflow-2.19.0-cp39-cp39-macosx_15_0_arm64.whl" }
+tensorflow-text = { url = "https://github.com/sun1638650145/Libraries-and-Extensions-for-TensorFlow-for-Apple-Silicon/releases/download/v2.19/tensorflow_text-2.19.0-cp39-cp39-macosx_11_0_arm64.whl" }
