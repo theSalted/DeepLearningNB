@@ -11,5 +11,6 @@ site/
 .cache
 pytest-temp
 /vendor
-.zip
-.keras
+*.zip*
+*.keras*
+*.csv*
