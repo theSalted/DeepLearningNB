@@ -24,6 +24,8 @@ Make sure you set the correct interpreter for your project. For VSCode, [follow 
 ### Google Colab
 If you want to run these notebooks on Google Colab. Simply fork this repo, go to `File` -> `Open notebook` -> `Github` and paste url to your fork and select the proper notebook. Colab come with most of dependencies installed so you shouldn't be needing to install yourself.
 
+Or you can use colab's terminal and clone the repository.
+
 ## The Table of Contents
 1. MNIST
 2. KerasTensorFlow
@@ -32,3 +34,21 @@ If you want to run these notebooks on Google Colab. Simply fork this repo, go to
 5. ComputerVision
 6. ConvnetPatterns
 7. ImageSegmentation
+8. InterpetConvnet (Mostly broken)
+9. ImageSgementation
+10. ObjectDetection
+11. TimeSeries
+
+## Keywords
+- Tensorflow
+- Keras
+- Feedforward
+- Convlution Neural Network
+- Residual Neural Network
+- Recurrent Neural Network
+- Long Short-Term Memory
+- Pretrain
+- RetainNet
+- MNIST
+- Oxford-IIIT
+- Yolo
