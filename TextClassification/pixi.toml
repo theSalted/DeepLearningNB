@@ -1,0 +1,19 @@
+[workspace]
+authors = ["Yuhao Chen <yuhao.chen2000@icloud.com>"]
+channels = ["conda-forge"]
+name = "TextClassification"
+platforms = ["osx-arm64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+ipykernel = ">=6.29.5,<7"
+python = ">=3.9.15,<3.10"
+matplotlib = ">=3.5.3,<4"
+
+[pypi-dependencies]
+regex = ">=2024.11.6, <2025"
+tensorflow = ">=2.19.0, <3"
+optree = ">=0.16.0, <0.17"
+keras = ">=3.10.0, <4"
