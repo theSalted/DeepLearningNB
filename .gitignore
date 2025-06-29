@@ -14,3 +14,4 @@ pytest-temp
 *.zip*
 *.keras*
 *.csv*
+.claude
