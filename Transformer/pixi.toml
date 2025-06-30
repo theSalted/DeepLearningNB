@@ -1,0 +1,15 @@
+[workspace]
+authors = ["Yuhao Chen <yuhao.chen2000@icloud.com>"]
+channels = ["conda-forge"]
+name = "Transformer"
+platforms = ["osx-arm64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+tensorflow = ">=2.6.0,<3"
+ipykernel = ">=6.29.5,<7"
+
+[pypi-dependencies]
+tensorflow = "*"
