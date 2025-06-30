@@ -8,8 +8,9 @@ version = "0.1.0"
 [tasks]
 
 [dependencies]
-tensorflow = ">=2.6.0,<3"
 ipykernel = ">=6.29.5,<7"
 
 [pypi-dependencies]
-tensorflow = "*"
+keras-nightly = ">=3.1.0.dev2024031503, <4"
+jax = ">=0.4.30, <0.5"
+tensorflow = ">=2.16.2, <3"
