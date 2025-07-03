@@ -1,0 +1,17 @@
+[workspace]
+authors = ["Yuhao Chen <yuhao.chen2000@icloud.com>"]
+channels = ["conda-forge"]
+name = "ImageGeneration"
+platforms = ["osx-arm64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+tensorflow = ">=2.6.0,<3"
+python = ">=3.9.15,<3.10"
+ipykernel = ">=6.29.5,<7"
+
+[pypi-dependencies]
+keras-nightly = ">=3.0.4.dev2024012403, <4"
+jax = ">=0.3.15, <0.4"
